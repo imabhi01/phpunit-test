@@ -9,7 +9,6 @@ class ValidatePasswordTest extends TestCase{
         $this->assertTrue($valPass->validLength('123123'));
         $this->assertTrue($valPass->validLength('123adfasdf123'));
         $this->assertTrue($valPass->validLength('12312fasdf3'));
-        // $this->assertTrue($valPass->validLength('12'));
         $this->assertTrue($valPass->validLength('123123'));
         $this->assertTrue($valPass->validLength('123123'));
     }
